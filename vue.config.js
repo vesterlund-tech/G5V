@@ -3,7 +3,7 @@ module.exports = {
   devServer: {
     proxy: {
       "/api": {
-        target: "https://panel.boomheadshot.se",
+        target: "http://panel.boomheadshot.se:3301",
         changeOrigin: true,
         ws: true,
         pathRewrite: {
