@@ -1,0 +1,34 @@
+{
+  "server": {
+    "port": 3301,
+    "hostname": "http://localhost",
+    "dbKey": "1219ae89c2fb4092da5e834e965cd49a",
+    "steamAPIKey": "00F0A325A10A7457ED690A6D2871F745",
+    "sharedSecret": "vc6564Lg5nFUyhgU4Zpf",
+    "clientHome": "https://newpanel.boomheadshot.se/",
+    "useRedis": false,
+    "apiURL": "https://newpanel.boomheadshot.se/api/",
+    "uploadDemos": false,
+    "localLoginEnabled": true,
+    "redisUrl": "redis://:super_secure@localhost:6379",
+    "redisTTL": 86400
+  },
+  "development": {
+    "driver": "mysql",
+    "user": "get5",
+    "password": "BF2C3Warn6jUZgP6RLcv",
+    "database": "get5",
+    "multipleStatements": true,
+    "flags": { "ENV": "MYSQL_FLAGS" },
+    "host": "csgo.boomheadshot.se",
+    "port": 33306,
+    "connectionLimit": 15
+  },
+  "admins": {
+    "steam_ids": "76561198809471163"
+  },
+  "super_admins": {
+    "steam_ids": "76561197966967588"
+  }
+}
+  
